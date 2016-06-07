@@ -96,7 +96,7 @@ public class ToDoActivity extends Activity {
             mClient = new MobileServiceClient(
                     "https://i-need-my-lawyer.azurewebsites.net",
                     this).withFilter(new ProgressFilter());
-
+            //Test
             // Extend timeout from default of 10s to 20s
             mClient.setAndroidHttpClientFactory(new OkHttpClientFactory() {
                 @Override
