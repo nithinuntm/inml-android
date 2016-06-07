@@ -88,7 +88,7 @@ public class ToDoActivity extends Activity {
 
         // Initialize the progress bar
         mProgressBar.setVisibility(ProgressBar.GONE);
-
+        // Test by NT
         try {
             // Create the Mobile Service Client instance, using the provided
 
